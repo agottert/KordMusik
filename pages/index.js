@@ -161,18 +161,6 @@ export default class KordIndex extends React.Component {
           <div id="about" className="wrapper_about">
           <span className="text_bold text_bold--about">About</span>
             <div className="wrapper_about--first">
-              
-              Es una productora de música independiente para todo tipo de medios
-              audiovisuales. Los servicios{" "}
-              <span className="text_bold">musicales</span> que brinda la
-              productora son acompañar, conectar, unificar, realzar, dar vida y
-              color a cada obra artística{" "}
-              <span className="text_bold">audiovisual</span>. Trabajamos con un
-              equipo <span className="text_bold">musical</span> que garantiza
-              por sobre todo escuchar las ideas de cada creador para asegurar la
-              mejor y más original pieza musicaL.
-            </div>
-            <div>
               Es una productora de música independiente para todo tipo de medios
               audiovisuales. Los servicios que brinda la productora son
               acompañar, conectar, unificar, realzar, dar vida y color a cada
