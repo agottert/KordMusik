@@ -100,6 +100,7 @@ export default class KordIndex extends React.Component {
             href="https://fonts.googleapis.com/css?family=Marvel|Nanum+Pen+Script|Open+Sans+Condensed:300|Poiret+One|Roboto+Condensed"
             rel="stylesheet"
           />
+          <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/> 
         </Head>
         <CSSTransition
           in={!this.state.playedVideo}
@@ -118,7 +119,7 @@ export default class KordIndex extends React.Component {
                 src="../../static/Images/Kord Music LOGO CHICO.png"
               />
             </div>
-            <span className="slogan">Film Scoring for the World</span>
+            <span className="slogan">FILM SCORING FOR THE WORLD</span>
           </div>
           <div className="wrapper_actions">
             <div className="wrapper_textSvg">
@@ -131,7 +132,7 @@ export default class KordIndex extends React.Component {
                 <path
                   d="M251 142.597v226.806L378.578 256 251 142.597zm30 66.806L333.422 256 281 302.597v-93.194zM191 146h30v220h-30z"
                   fill="#aaacad"
-                  style={{fill: 'white'}}
+                  style={{fill: 'black'}}
                 />
               </svg>
               <a className="header_tracks" href="#tracks">
@@ -150,18 +151,18 @@ export default class KordIndex extends React.Component {
                   d="M251 142.597v226.806L378.578 256 251 142.597zm30 66.806L333.422 256 281 302.597v-93.194zM191 146h30v220h-30z"
                   fill="#aaacad"
                   
-                  style={{fill: 'white'}}
+                  style={{fill: 'black'}}
                 />
               </svg>
               <a className="header_contact" href="#contact">
-                Contact
+                Contacto
               </a>
             </div>
           </div>
           <div id="about" className="wrapper_about">
-          <span className="text_bold text_bold--about">About</span>
+          <span className="text_bold text_bold--about">Nosotros</span>
             <div className="wrapper_about--first">
-              Es una productora de música independiente para todo tipo de medios
+              Somos una productora de música independiente para todo tipo de medios
               audiovisuales. Los servicios que brinda la productora son
               acompañar, conectar, unificar, realzar, dar vida y color a cada
               obra artística. Trabajamos con un equipo que garantiza por sobre
@@ -241,7 +242,7 @@ export default class KordIndex extends React.Component {
               >
                 <path
                   d="M90 43.841c0 24.213-19.779 43.841-44.182 43.841a44.256 44.256 0 0 1-21.357-5.455L0 90l7.975-23.522a43.38 43.38 0 0 1-6.34-22.637C1.635 19.628 21.416 0 45.818 0 70.223 0 90 19.628 90 43.841zM45.818 6.982c-20.484 0-37.146 16.535-37.146 36.859 0 8.065 2.629 15.534 7.076 21.61L11.107 79.14l14.275-4.537A37.122 37.122 0 0 0 45.819 80.7c20.481 0 37.146-16.533 37.146-36.857S66.301 6.982 45.818 6.982zm22.311 46.956c-.273-.447-.994-.717-2.076-1.254-1.084-.537-6.41-3.138-7.4-3.495-.993-.358-1.717-.538-2.438.537-.721 1.076-2.797 3.495-3.43 4.212-.632.719-1.263.809-2.347.271-1.082-.537-4.571-1.673-8.708-5.333-3.219-2.848-5.393-6.364-6.025-7.441-.631-1.075-.066-1.656.475-2.191.488-.482 1.084-1.255 1.625-1.882.543-.628.723-1.075 1.082-1.793.363-.717.182-1.344-.09-1.883-.27-.537-2.438-5.825-3.34-7.977-.902-2.15-1.803-1.792-2.436-1.792-.631 0-1.354-.09-2.076-.09s-1.896.269-2.889 1.344c-.992 1.076-3.789 3.676-3.789 8.963 0 5.288 3.879 10.397 4.422 11.113.541.716 7.49 11.92 18.5 16.223C58.2 65.771 58.2 64.336 60.186 64.156c1.984-.179 6.406-2.599 7.312-5.107.9-2.512.9-4.663.631-5.111z"
-                  fill="#93999e"
+                  fill="#fffff"
                 />
               </svg>
               <span>+54 9 11 5634-2217</span>
@@ -260,11 +261,11 @@ export default class KordIndex extends React.Component {
               >
                 <path
                   d="M336.764,45.945H45.354C20.346,45.945,0,65.484,0,89.5v203.117c0,24.016,20.346,43.555,45.354,43.555h291.41  c25.008,0,45.353-19.539,45.353-43.555V89.5C382.117,65.484,361.772,45.945,336.764,45.945z M336.764,297.72H45.354  c-3.676,0-6.9-2.384-6.9-5.103V116.359l131.797,111.27c2.702,2.282,6.138,3.538,9.676,3.538l22.259,0.001  c3.536,0,6.974-1.257,9.677-3.539l131.803-111.274v176.264C343.664,295.336,340.439,297.72,336.764,297.72z M191.059,192.987  L62.87,84.397h256.378L191.059,192.987z"
-                  fill="#939699"
+                  fill="#fffff"
                 />
               </svg>
-              <a className="svg_mail--a" href="mailto:kordmusik@gmail.com">
-                kordmusik@gmail.com
+              <a className="svg_mail--a" href="mailto:info@kordmusik">
+                info@kordmusik.net
               </a>
             </div>
           </div>
@@ -279,19 +280,22 @@ export default class KordIndex extends React.Component {
             grid-auto-rows: 19em;
             grid-auto-flow: dense;
             grid-gap: 3em;
-            background-color: grey;
+            background-color:black;
             padding: 2.5em 5em;
-            border-top: solid 0.3em #f6a15f;
-            border-bottom: solid 0.3em #f6a15f;
+            border-top: solid 0.5em #f6a15f;
+            border-bottom: solid 0.5em #f6a15f;
           }
           .wrapper_about {
-            color: grey;
+            color:white;
             font-size: 2em;
             font-family: "Alegreya Sans";
             line-height: 1.5em;
             padding: 3em 3em 1em 3em;
             text-align: justify;
             font-weight: 300;
+            background-color: black;
+            border-bottom:solid 0.3em #f6a15f;
+            border-top:solid 0.3em #f6a15f;
           }
           .wrapper_about--first {
             margin-bottom: 1em;
@@ -336,7 +340,7 @@ export default class KordIndex extends React.Component {
 
           .lines_play {
             width: 7em;
-            border-bottom: solid #dddddd 0.2em;
+            border-bottom: solid black 0.2em;
             height: 1em;
           }
           .wrapper_header {
@@ -347,6 +351,8 @@ export default class KordIndex extends React.Component {
             text-align: center;
             color: white;
             padding-bottom: 1em;
+            border-bottom:solid 0.5em #f6a15f;
+            border-top:solid 0.5em #f6a15f;
           }
           .svg_play {
             padding-left: 0.5em;
@@ -355,25 +361,26 @@ export default class KordIndex extends React.Component {
           }
           .slogan {
             font-size: 2em;
-            font-family: Roboto Condensed;
-            font-weight: light;
+            font-family: 'Raleway', sans-serif;
+            padding-bottom: 1em;
           }
           .wrapper_actions {
             display: flex;
             justify-content: space-evenly;
             font-family: "Alegreya Sans";
-            background-color: rgba(60, 60, 60, 0.5);
+            background-color: white;
             align-items: center;
             padding: 2em 7em;
             font-weight: 300;
             line-height: 2.5em;
+            
           }
 
           
           .header_contact,
           .header_tracks {
             text-decoration: none;
-            color: white;
+            color: black;
             transition: 0.3s;
             font-size: 1.8em;
             transition-timing-function: ease;
@@ -404,7 +411,7 @@ export default class KordIndex extends React.Component {
             justify-content: center;
             align-items: center;
             font-family: "Alegreya Sans";
-            color: grey;
+            color: black;
             font-size: 2em;
           }
           .wrapper_mail a:hover {
@@ -412,7 +419,7 @@ export default class KordIndex extends React.Component {
           }
           .svg_mail--a {
             text-decoration: none;
-            color: grey;
+            color: black;
             text-decoration-style: none;
           }
 
@@ -467,6 +474,11 @@ export default class KordIndex extends React.Component {
             .wrapper_about {
               padding-bottom: 0em;
             }
+            .footer{
+              justify-content: center;
+              padding-left:0em;
+            }
+
           }
 
           @media (max-width: 450px) {
