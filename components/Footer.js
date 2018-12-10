@@ -1,11 +1,14 @@
 import React from "react";
 import Head from "next/head";
 import PlayBreaks from '../components/PlayBrakes'
+import Link from 'next/link'
 
-export default props => (
+export default () => (
   <div>
-    <PlayBreaks />
+     <PlayBreaks/>
+    
     <div id="contact" className="wrapper_contact">
+   
       <div className="wrapper_wapp">
         <svg
           className="svg_wapp"
@@ -63,7 +66,7 @@ export default props => (
             justify-content: space-around;
             align-items: center;
             margin-bottom: 3em;
-            padding: 0em 3em 4em;
+            padding: 0em 2em 0em;
           }
           .wrapper_wapp,
           .wrapper_mail {
@@ -95,17 +98,27 @@ export default props => (
             display: flex;
             align-items: center;
           }
-          @media (max-width: 900px) {
+
+
+          @media (max-width: 700px) {
             .wrapper_contact {
+              height: 10em;
+              font-size:0.8em;
+          }
+          .svg_mail,
+            .svg_wapp {
+              width: 2em;
+            }
+          }
+            @media (max-width: 600px) {
+              .wrapper_contact{
               flex-direction: column;
               justify-content: space-between;
               align-items: center;
-              height: 10em;
-            }
-            @media (max-width: 500px) {
+              }
               .svg_mail,
             .svg_wapp {
-              width: 2.5em;
+              width: 2em;
             }
             .footer {
               justify-content: center;

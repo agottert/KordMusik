@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 const Layout = props => (
   <div>
@@ -59,10 +60,12 @@ const Layout = props => (
     </Head>
     <div className="wrapper_header">
       <div>
+        <Link href="/">
         <img
           className="pic_logo"
           src="../../static/Images/Kord Music LOGO CHICO.png"
         />
+      </Link>
       </div>
       <span className="slogan">FILM SCORING FOR THE WORLD</span>
     </div>
@@ -83,6 +86,7 @@ const Layout = props => (
         padding-bottom: 1em;
         border-bottom: solid 0.5em #f6a15f;
         border-top: solid 0.5em #f6a15f;
+        cursor:pointer;
       }
       .slogan {
         font-size: 2em;
@@ -104,14 +108,14 @@ const Layout = props => (
       }
       @media (max-width: 450px) {
         .wrapper_header {
-          padding: 2em 0em;
+          padding: 0em 0em;
         }
 
         .pic_logo {
           width: 15em;
         }
         .slogan {
-          font-size: 1.8em;
+          font-size: 1em;
         }
       }
     `}</style>
