@@ -533,7 +533,9 @@ export default class Bio extends React.Component {
           />
         </Head>
         <Layout>
-          <Header contactRoute="#contact" tracksRoute="/" />
+          <div className="header">
+          <Header contactRoute="#contact" tracksRoute="/"/>
+          </div>
           <div className="wrapper">
             <div className="wrapper_bio">
               <div className="caro">
@@ -602,11 +604,12 @@ export default class Bio extends React.Component {
         </Layout>
 
         <style jsx>{`
+          .header{margin-top:1em;}
           .wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-bottom: 6em;
+            padding-bottom: 2em;
           }
           .name:hover {
             color: rgb(246, 161, 95);
