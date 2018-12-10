@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 export default () => (
   <div>
+     <div className="brakes">
      <PlayBreaks/>
+     </div>
     
     <div id="contact" className="wrapper_contact">
    
@@ -97,6 +99,10 @@ export default () => (
             font-size: 1.2em;
             display: flex;
             align-items: center;
+          }
+          .brakes{
+            margin-top:1em;
+            margin-bottom: 2em;
           }
 
 

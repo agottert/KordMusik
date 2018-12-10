@@ -83,7 +83,9 @@ export default class KordIndex extends React.Component {
                 más original pieza musical.
               </div>
             </div>
+            <div className="brakes">
             <PlayBreaks />
+            </div>
             {
               <div id="tracks" className="wrapper_tracks">
                 <div id="tracks" className="track track_1">
@@ -222,6 +224,9 @@ export default class KordIndex extends React.Component {
             font-family: "Raleway", sans-serif;
             padding-bottom: 1em;
           }
+          .brakes{
+              margin-top:1em;
+              margin-bottom: 2em;}
           
           
           
@@ -237,6 +242,7 @@ export default class KordIndex extends React.Component {
               grid-auto-rows: 16em;
               grid-gap: 0em;
             }
+           
           }
           @media (max-width: 500px) {
             .wrapper_about {

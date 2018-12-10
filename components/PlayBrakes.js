@@ -26,9 +26,8 @@ export default props => (
       .wrapper_svg--play {
         display: flex;
         justify-content: center;
-        margin-bottom: 4em;
         align-items: center;
-        margin-top: 2em;
+        
       }
       .lines_play {
         width: 7em;

@@ -134,13 +134,13 @@ export default props => (
           .header_bio,
           .header_contact,
           .header_tracks {
-            font-size:1.5em;
+            font-size:1.7em;
           }
           .header_bio:hover, .header_contact:hover, .header_tracks:hover{
              font-size:1.9em;
           }
           .wrapper_total--actions {
-            margin-top:1em;
+           
             margin-bottom:0em;
           }
         }
