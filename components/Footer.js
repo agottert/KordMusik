@@ -12,7 +12,9 @@ export default () => (
     <div id="contact" className="wrapper_contact">
    
       <div className="wrapper_wapp">
+       <a href='https://api.whatsapp.com/send?phone=5491156342217'>
         <svg
+
           className="svg_wapp"
           xmlns="http://www.w3.org/2000/svg"
           width="60"
@@ -24,7 +26,8 @@ export default () => (
             fill="#fffff"
           />
         </svg>
-        <span>+54 9 11 5634-2217</span>
+        </a>
+        <a className="phone"href='https://api.whatsapp.com/send?phone=5491156342217'>+54 9 11 5634-2217</a>
       </div>
       <div className="wrapper_mail">
         <svg
@@ -88,9 +91,7 @@ export default () => (
             text-decoration-style: none;
           }
 
-          .wrapper_wapp span:hover {
-            color: #f6a15f;
-          }
+         
           .footer {
             background-color: #f6a15f;
             font-family: "Alegreya Sans";
@@ -103,6 +104,13 @@ export default () => (
           .brakes{
             margin-top:1em;
             margin-bottom: 2em;
+          }
+          .phone{
+            text-decoration: none;
+            color:black;
+          }
+          .phone:hover{
+            color: #f6a15f;
           }
 
 
