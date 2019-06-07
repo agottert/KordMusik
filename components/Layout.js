@@ -5,7 +5,7 @@ import Link from "next/link";
 const Layout = props => (
   <div>
     <Head>
-      <title>Kordmusik - Film Scoring for the World</title>
+      <title>Carolina Göttert</title>
       <link
         rel="shortcut icon"
         type="image/png"
@@ -57,17 +57,12 @@ const Layout = props => (
         href="https://fonts.googleapis.com/css?family=Raleway"
         rel="stylesheet"
       />
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"/> 
     </Head>
     <div className="wrapper_header">
-      <div>
-        <Link href="/">
-        <img
-          className="pic_logo"
-          src="../../static/Images/Kord Music LOGO CHICO.png"
-        />
-      </Link>
+      <div className="wrapper_name">
+        Carolina Göttert
       </div>
-      <span className="slogan">FILM SCORING FOR THE WORLD</span>
     </div>
 
     <div>{props.children}</div>
@@ -76,23 +71,25 @@ const Layout = props => (
       .pic_logo {
         width: 40em;
       }
+      .wrapper_name{
+        font-size:3em;
+        color:white;
+        padding:1.5em;
+        font-family: 'Kaushan Script', cursive;
+        background-color:black;
+      }
       .wrapper_header {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: black;
         text-align: center;
         color: white;
-        padding-bottom: 1em;
-        border-bottom: solid 0.5em #f6a15f;
-        border-top: solid 0.5em #f6a15f;
+        
+        
+       
         cursor:pointer;
       }
-      .slogan {
-        font-size: 2em;
-        font-family: "Raleway", sans-serif;
-        padding-bottom: 1em;
-      }
+      
       `}</style>
 
      <style jsx>{`
@@ -100,6 +97,7 @@ const Layout = props => (
         .pic_logo {
           width: 30em;
         }
+        
       }
       @media (max-width: 500px) {
         .pic_logo {
